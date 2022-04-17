@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'tinymce',
     'hood',
     'bootstrap3',
+    'bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
