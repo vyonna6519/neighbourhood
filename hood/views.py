@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse,Http404,HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ObjectDoesNotExist
-from .models import neighbourhood,BlogPost,Profile,Comment
+from .models import BlogPost,Profile,Comment,neighbourhood
 from .email import send_priority_email
 from .forms import ProfileForm,BlogPostForm,CommentForm
 import datetime as dt
