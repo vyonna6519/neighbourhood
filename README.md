@@ -25,25 +25,27 @@ Username: moringa
 
 ### Installation
 
+1. Clone the repo
    ```
-1. Create virtual environment
+   git clone 
+   ```
+2. Create virtual environment
    ```
    virtualenv virtual
-
    . virtual/bin/activate
    ```
-2. Install requirements
+3. Install requirements
    ```
    pip install -r requirements.txt
    ```
-3. Create migrations
+4. Create migrations
    ```
    python3 manage.py makemigrations
    ```
    ```
    python3 manage.py migrate
    ```
-4. Run application
+5. Run application
    ```
    python3 manage.py runserver
    ```
