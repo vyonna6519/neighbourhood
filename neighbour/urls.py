@@ -21,7 +21,7 @@ from django.contrib.auth.views import LogoutView
 urlpatterns = [
     re_path(r'^admin/', admin.site.urls),
     re_path(r'',include('hood.urls')),
-    # re_path(r'^logout/',views.LogoutView.as_view(),{'index':'/'}),
+    re_path(r'^logout/',views.LogoutView.as_view(),{'index':'/'}),
     re_path(r'^tinymce',include('tinymce.urls')),
 ]
 
